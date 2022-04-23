@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__parser.o
+[PROJECT FILES]
+/home/jamie/ada-parse/ada_parse.gpr
+20220418120836 58371adc9f8967b06d7019c357f8d227
+[BOUND OBJECT FILES]
+/home/jamie/ada-parse/obj/parser.o
+[GENERATED SOURCE FILES]
+b__parser.ads
+b__parser.adb
+b__parser.ali
+[RESULTING OPTIONS]
+-L/home/jamie/ada-parse/obj/
+-L/home/jamie/ada-parse/obj/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adalib/
+-static
+-static-libgcc
+/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adalib/libgnat.a
+-ldl

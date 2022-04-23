@@ -1,0 +1,118 @@
+V "GNAT Lib v11"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U lang%b		lang.adb		7c966224 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20220226223144 76789da1 ada%s
+D a-except.ads		20220226223144 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20220226223144 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20220226223144 119b8fb3 ada.streams%s
+D a-tags.ads		20220226223144 9eaa38c6 ada.tags%s
+D a-textio.ads		20220226223144 aef4d56d ada.text_io%s
+D a-unccon.ads		20220226223144 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20220226223144 edec285f interfaces%s
+D i-c.ads		20220226223144 c624fa43 interfaces.c%s
+D i-cstrea.ads		20220226223144 e53d8b8e interfaces.c_streams%s
+D lang.adb		20220423165443 14464d0a lang%b
+D system.ads		20220226223144 a2da961d system%s
+D s-conca2.ads		20220226223144 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20220226223144 0ebbdb71 system.crtl%s
+D s-exctab.ads		20220226223144 54135002 system.exception_table%s
+D s-ficobl.ads		20220226223144 078245e4 system.file_control_block%s
+D s-imagei.ads		20220226223144 0d3f86a7 system.image_i%s
+D s-imgint.ads		20220226223144 bdb6f5ec system.img_int%s
+D s-parame.ads		20220226223144 4752c4cb system.parameters%s
+D s-secsta.ads		20220226223144 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20220226223144 a7318a92 system.soft_links%s
+D s-stache.ads		20220226223144 a37c21ec system.stack_checking%s
+D s-stalib.ads		20220226223144 0f2d51ff system.standard_library%s
+D s-stoele.ads		20220226223144 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20220226223144 ed88f8fb system.storage_elements%b
+D s-traent.ads		20220226223144 26a8d361 system.traceback_entries%s
+D s-wchcon.ads		20220226223144 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [lang standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r25
+X 6 a-textio.ads
+58K13*Text_IO 728e16 11|1w10 1r29
+65P9*File_Type 11|97r8
+67n32*Out_File{67E9} 11|103r18
+100U14*Create 11|103s7
+130U14*Close 11|138s7
+499U14*Put_Line 11|104s7 105s7 106s7 108s7 109s7 110s7 112s7 117s16 119s16
+. 120s16 121s16 122s16 124s16 125s16 126s16 127s16 129s16 135s7 136s7 137s7
+509U14*Put_Line 11|68s10
+X 8 interfac.ads
+38K9*Interfaces 231e15 11|2r6 5r22
+X 9 i-c.ads
+18K20*C 232e17 11|2w17 5r33
+35I9*int<integer> 11|18r52 100r18 146r15
+74E9*char<character>
+81A9*char_array(74E9)<62M9> 11|18r31
+X 11 lang.adb
+4U11*Lang 4b11 153l5 153t9
+5K12 C=5:33 18r29 18r50 100r16 146r13
+7E9 Oper 7e49 10r20
+7n18 Plus{7E9} 29r28 78r18 118r18
+7n24 Dump{7E9} 39r28 86r18 128r18
+7n30 Minus{7E9} 34r28 82r18 123r18
+7n37 Push{7E9} 24r28 76r18 116r18
+7n43 No_op{7E9} 88r18 130r18 144r88
+9R9 Idk 12e14 14r51 22r44 27r28 32r29 37r28
+10e7 operation{7E9} 24m15 29m15 34m15 39m15 75r26 115r26 144m77
+11i7 value{integer} 24m34 29m34 34m35 39m34 77r39 117r52 144m95
+14A9 Prog(9R9)<integer> 42r35 96r33 144r14
+16A9 Stack(integer)<integer> 44r12
+18V13*system{9|35I9} 18>20 139s20
+18a20 command{9|81A9}
+22V13 push_op{9R9} 22b13 22>22 25t7 144s23 144s35
+22i22 num{integer} 24r43
+27V13 plus_op{9R9} 27b13 30t7 144s48
+32V13 minus_op{9R9} 32b13 35t7
+37V13 dump_op{9R9} 37b13 40t7 144s57
+42U14 Interpret 42b14 42>25 92t7 150s4
+42a25 Program{14A9} 74r16 75r15 77r28
+43i4 counter{natural} 52r23 53r13 54m7 54r18 60m7 60r18 61r13 67r18
+44a4 store{16A9} 52r17 53m7 61m7 68r19
+45i4 I{natural}
+46i4 a{integer} 79m16 81r28 83m16 85r30
+47i4 b{integer} 80m16 81r30 84m16 85r28
+49V13 pop_stack{integer} 49b13 56t7 79s21 80s21 83s21 84s21
+50i4 popped{natural} 52m7 55r14
+58U14 push_stack 58b14 58>26 62t7 77s16 81s16 85s16
+58i26 num{integer} 61r25
+64U14 dump_stack 64b14 71t7 87s16
+65i4 I{natural} 67r13 68r25 69m10 69r15
+74i11 I{integer} 75r23 77r36
+96U14 Compile 96b14 96>23 141t7 151s4
+96a23 Program{14A9} 114r16 115r15 117r41
+97p4 F{6|65P9} 103m15 103r15 104r17 105r17 106r17 108r17 109r17 110r17 112r17
+. 117r26 119r25 120r25 121r25 122r25 124r25 125r25 126r25 127r25 129r26 135r17
+. 136r17 137r17 138m14 138r14
+98a4 File_name{string} 103r28
+99i4 I{natural}
+100i4 sysreturn{9|35I9} 139m7
+114i11 I{integer} 115r23 117r49
+144a4 Program{14A9} 150r15 151r13
+146i4 result{9|35I9}
+

@@ -1,0 +1,8 @@
+project Ada_Lang is
+
+    for Languages use ("Ada", "c");
+    for Source_Dirs use ("src");
+    for Object_Dir use "obj";
+    for Main use ("lang.adb");
+    
+end Ada_Lang;

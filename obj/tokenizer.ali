@@ -1,0 +1,150 @@
+V "GNAT Lib v11"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U tokenizer%b		tokenizer.adb		8629f569 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20220226223144 76789da1 ada%s
+D a-charac.ads		20220226223144 2d3ec45b ada.characters%s
+D a-chlat1.ads		20220226223144 66457d31 ada.characters.latin_1%s
+D a-except.ads		20220226223144 449c9b65 ada.exceptions%s
+D a-finali.ads		20220226223144 bf4f806b ada.finalization%s
+D a-ioexce.ads		20220226223144 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20220226223144 119b8fb3 ada.streams%s
+D a-string.ads		20220226223144 90ac6797 ada.strings%s
+D a-strfix.ads		20220226223144 aeacf44c ada.strings.fixed%s
+D a-strmap.ads		20220226223144 5a88892a ada.strings.maps%s
+D a-stteou.ads		20220226223144 e7ab1e2a ada.strings.text_output%s
+D a-strunb.ads		20220226223144 c56ac521 ada.strings.unbounded%s
+D a-stuten.ads		20220226223144 808c40ad ada.strings.utf_encoding%s
+D a-suezst.ads		20220226223144 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20220226223144 9eaa38c6 ada.tags%s
+D a-textio.ads		20220226223144 aef4d56d ada.text_io%s
+D a-unccon.ads		20220226223144 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20220226223144 edec285f interfaces%s
+D i-cstrea.ads		20220226223144 e53d8b8e interfaces.c_streams%s
+D system.ads		20220226223144 a2da961d system%s
+D s-atocou.ads		20220226223144 b45c2d8d system.atomic_counters%s
+D s-conca3.ads		20220226223144 0b705ca5 system.concat_3%s
+D s-crtl.ads		20220226223144 0ebbdb71 system.crtl%s
+D s-exctab.ads		20220226223144 54135002 system.exception_table%s
+D s-ficobl.ads		20220226223144 078245e4 system.file_control_block%s
+D s-finroo.ads		20220226223144 4ff27390 system.finalization_root%s
+D s-imenne.ads		20220226223144 614c06c0 system.img_enum_new%s
+D s-memory.ads		20220226223144 597d6634 system.memory%s
+D s-parame.ads		20220226223144 4752c4cb system.parameters%s
+D s-secsta.ads		20220226223144 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20220226223144 a7318a92 system.soft_links%s
+D s-stache.ads		20220226223144 a37c21ec system.stack_checking%s
+D s-stalib.ads		20220226223144 0f2d51ff system.standard_library%s
+D s-stalib.adb		20220226223144 977290bf system.standard_library%b
+D s-stoele.ads		20220226223144 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20220226223144 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20220226223144 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20220226223144 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20220226223144 eea7525d system.unsigned_types%s
+D s-wchcon.ads		20220226223144 1b7d22d2 system.wch_con%s
+D tokenizer.adb		20220423122459 ef7a82e5 tokenizer%b
+D unchconv.ads		20220226223144 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [tokenizer standard 8 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 41|1r6 1r29 2r6 2r29 3r6 3r33 4r6 4r29 5r6 5r29 6r6
+X 2 a-charac.ads
+16K13*Characters 18e19 41|6r10
+X 3 a-chlat1.ads
+18K24*Latin_1 296e27 41|6w21
+X 8 a-string.ads
+16K13*Strings 35e16 41|1w10 1r33 2r10 2r33 3r10 3r37 4r10 4r33
+X 9 a-strfix.ads
+43K21*Fixed 1398e22 41|2w18 2r41
+X 10 a-strmap.ads
+44K21*Maps 548e21 41|4w18 4r41
+52A9*Character_Set<274A9> 41|20r16 21r16 22r20 23r17 24r21 34r57
+150V13*Is_In{boolean} 41|41s19 51s16 53s19 56s19 59s19 62s19
+172V13*To_Set{52A9} 41|20s33 21s33 22s37 23s34 24s38
+274A9 Character_Set_Internal(boolean)<character>
+X 12 a-strunb.ads
+83K21*Unbounded 762e26 41|3w18 3r45
+88R9*Unbounded_String<5|43R9> 742e15 41|15r15
+104V13*To_Unbounded_String{88R9} 41|32s58 38s42
+117V13*To_String{string} 41|80s61
+176V14*"&"{88R9} 41|43s51
+X 16 a-textio.ads
+58K13*Text_IO 728e16 41|5w10 5r33
+509U14*Put_Line 41|80s10
+X 20 system.ads
+67M9*Address
+X 28 s-memory.ads
+53V13*Alloc{20|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{20|67M9} 105i<c,__gnat_realloc>22
+X 34 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+X 41 tokenizer.adb
+8U11*Tokenizer 8b11 84t7
+9E9 TokenType 9e83 12r16 34r40 80r19
+9n23 NULLTOKEN{9E9} 29r59 79r33
+9n34 SPEECHTOKEN{9E9} 63r47
+9n47 WORDTOKEN{9E9} 54r47
+9n58 NUMTOKEN{9E9} 57r47
+9n68 SEMICOLONTOKEN{9E9} 60r47
+11R9 Token 16e14 18r56 34r79 35r22
+12e7 option{9E9} 29m49 35m32 79r23 80r45
+13i7 start{natural} 30m49 36m33
+14i7 finish{natural} 31m49 37m33 42m26 42r46
+15r7 value{12|88R9} 32m49 38m33 43m26 43r45 80r81
+18A9 TokenStore(11R9)<integer> 26r41 29r23 72r12
+20a4 Alpha_Set{10|52A9} 53r31 54r58
+21a4 Digit_Set{10|52A9} 56r31 57r57
+22a4 Semicolon_Set{10|52A9} 59r31 60r63
+23a4 Speech_Set{10|52A9} 62r31 63r60
+24a4 Whitespace_Set{10|52A9} 51r28
+26V13 Tokenize{18A9} 26b13 26>22 70t10 76s16
+26a22 S{string} 41r25 43r53 50r21 51r22 53r25 56r25 59r25 62r25
+27i7 C{natural} 36r42 37r43 41r27 43r55 44m16 44r21 50r16 51r24 52m16 52r20
+. 53r27 56r27 59r27 62r27
+28i7 I{natural} 54r30 55m16 55r21 57r30 58m16 58r21 60r30 61m16 61r21 63r30
+. 64m16 64r21
+29a7 Token_Storage{18A9} 54m16 57m16 60m16 63m16 68r17
+34V16 Make_Token{11R9} 34b16 34>27 34>51 47t13 54s36 57s36 60s36 63s36
+34e27 token_type{9E9} 35r42
+34a51 set{10|52A9} 41r31
+35r10 acc_token{11R9} 42m16 42r36 43m16 43r35 46r20
+72a4 store{18A9} 76m7 79r14 80r36 80r72
+73i4 I{natural} 77m7 79r20 80r42 80r78 81m10 81r15
+

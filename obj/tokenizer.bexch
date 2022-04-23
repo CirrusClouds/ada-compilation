@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__tokenizer.o
+[PROJECT FILES]
+/home/jamie/ada-parse/ada_lang.gpr
+20220423113648 90fb1f8d614da43416408c068b1b1590
+[BOUND OBJECT FILES]
+/home/jamie/ada-parse/obj/tokenizer.o
+[GENERATED SOURCE FILES]
+b__tokenizer.ads
+b__tokenizer.adb
+b__tokenizer.ali
+[RESULTING OPTIONS]
+-L/home/jamie/ada-parse/obj/
+-L/home/jamie/ada-parse/obj/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adalib/
+-static
+-static-libgcc
+/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adalib/libgnat.a
+-ldl
